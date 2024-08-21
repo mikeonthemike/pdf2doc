@@ -56,7 +56,7 @@ pdf_converter_app/
 1. **Run the Application**:
 
    ```bash
-   python app.py
+   python main.py
    ```
 
 2. **Access the Web Interface**:
