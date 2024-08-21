@@ -13,7 +13,7 @@ This project is a simple web application built with Flask that allows users to u
 ```
 pdf_converter_app/
 │
-├── app.py                 # Main application script
+├── main.py                 # Main application script
 ├── templates/
 │   ├── index.html         # HTML template for the upload form
 ├── static/
@@ -78,7 +78,7 @@ These dependencies are listed in the `requirements.txt` file.
 
 ## Directory Structure
 
-- **`app.py`**: The main Flask application file that handles routes, file uploads, and conversion logic.
+- **`main.py`**: The main Flask application file that handles routes, file uploads, and conversion logic.
 - **`templates/index.html`**: The HTML template for the web interface.
 - **`static/styles.css`**: The CSS file for styling the web interface.
 - **`uploads/`**: Directory where uploaded PDF files are stored.
@@ -98,6 +98,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or feedback, please open an issue on this repository or contact me directly at [your-email@example.com].
+For any questions or feedback, please open an issue on this repository.
 ```
 ![image](image.png)
