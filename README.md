@@ -72,6 +72,7 @@ pdf_converter_app/
 ## Project Dependencies
 
 - **Flask**: A lightweight WSGI web application framework.
+- **Flask-Testing**: an extension for testing Flask applications.
 - **pdf2docx**: A Python library for converting PDF files to DOCX format.
 
 These dependencies are listed in the `requirements.txt` file.
@@ -87,6 +88,12 @@ These dependencies are listed in the `requirements.txt` file.
 ## Customization
 
 You can customize the application by modifying the HTML template (`templates/index.html`), adding more features to the Flask routes in `app.py`, or enhancing the CSS styles in `static/styles.css`.
+
+## Testing
+Run:
+   ```bash
+   python -m unittest discover -s tests
+   ```
 
 ## Contributing
 
